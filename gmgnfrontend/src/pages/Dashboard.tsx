@@ -6,7 +6,7 @@ import { injected } from 'wagmi/connectors'
 import { ethers } from 'ethers'
 import { CONTRACT_ADDRESS, USDC_ADDRESS, ERC20_ABI, ROUTER_ABI } from '../config/contract'
 
-const FASTAPI_URL = process.env.NEXT_PUBLIC_FASTAPI_URL || "http://46.8.227.209:8000";
+const FASTAPI_URL = "http://46.8.227.209:8000";
 interface Message {
   role: 'user' | 'assistant';
   content: string;
