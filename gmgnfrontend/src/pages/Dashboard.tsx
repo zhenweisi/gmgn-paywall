@@ -6,7 +6,8 @@ import { injected } from 'wagmi/connectors'
 import { ethers } from 'ethers'
 import { CONTRACT_ADDRESS, USDC_ADDRESS, ERC20_ABI, ROUTER_ABI } from '../config/contract'
 
-const FASTAPI_URL = "http://46.8.227.209";
+const FASTAPI_URL = "http://gmgnpaywall.duckdns.org";
+
 interface Message {
   role: 'user' | 'assistant';
   content: string;
